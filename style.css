@@ -1,0 +1,19 @@
+#logo{
+    width:100px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+#facebook{
+    width:50px;
+}
+#mail{
+    width:35px;
+}
+
+.tri{
+    width: 300px;
+    border:solid;
+}
+h1 {
+    width: 10px;
+}
