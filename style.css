@@ -13,6 +13,7 @@ header{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 #value{
     border-radius:10px;
 }
@@ -26,12 +27,21 @@ header{
 h1 {
     width:10px;
 }
+
 .e16 {
     width:250px;
 }
 .e17 {
     width:250px;
 }
-e14 {
+.e14 {
     width:250px;
+}
+header{
+    padding-top: 51px;
+}
+@media only screen and (max-width: 768px){
+    header {
+        padding-top: 400px;
+    }
 }

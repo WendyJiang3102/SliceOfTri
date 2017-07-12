@@ -8,7 +8,9 @@ $('ul li').click(function(){
     clicked_tab.parent().children('li').not(clicked_tab).removeClass('active');
     
     var clicked_href = $(this).children('a').attr('href');
-    $('img').hide();
+    console.log(clicked_href);
+    $('#home').hide();
+    $('#about').hide();
     $(clicked_href).show();
 
 });

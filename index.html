@@ -4,10 +4,26 @@
         <title> Slice Of Tri</title>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
             <link rel="stylesheet" href="style.css" type="text/css" />
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-            <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+            <script src= "script.js"> </script>
+            
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar">
+    <div>
+         <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Slice Of Tri</a>
+            </div>
+                <ul id="tabs" class="nav navbar-nav">
+                    <li class="active"><a href="index.html"> Home </a></li>
+                    <li><a href="#pp"> Past Podcast</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+          </div>
+         </nav>
+        
     <header>
         <div class="row">
             <div class="col-xs-1">
@@ -20,25 +36,19 @@
             <div class="col-xs-6">
                 
             </div>
+            
             <div class="col-xs-3">
                 <input id="value" placeholder="More Info? Search Here">
                 <button id="searchbtn">Search</button>
             </div>
         </div>
-    </header
-    <nav class="navbar navbar-default">    
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Slice of Tri</a>
-            </div>
+    </header>
+    <div class=row>
+        <div class="col-md-12">
+            
         </div>
-    </nav>
-    <ul class="nav nav-tabs">
-        <li class="active"><a href="home"> Home </a></li>
-        <li><a href="#pp"> Past Podcast</a></li>
-        <li><a href="#about">About</a></li>
-    </ul>
-        
+    </div>
+    <div id= "home">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -67,16 +77,15 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-            <img class="tri"src="https://static.wixstatic.com/media/0df5bb_f350feb52629433ea92fb09eaa7f2236.jpg/v1/fill/w_620,h_930/0df5bb_f350feb52629433ea92fb09eaa7f2236.jpg">
-            <img class="tri"src="http://www.infobarrel.com/media/image/99533.jpg">
-            <img class="tri"src="http://www.sevenmileswimmers.com/uploads/5/4/6/3/54631315/7207991_orig.jpg">
+    <div>
+        <p>A triathlon is a multiple-stage competition involving the completion of three continuous and sequential endurance disciplines. While many variations of the sport exist, triathlon, in its most popular form, involves swimming, cycling, and running in immediate succession over various distances. Slice of Tri is about a triathlon podcast by three triathletes in Brooklyn, New York.</p>
+    </div>
+        <div style= "display:none" id= "pp">
+        <a href="https://soundcloud.com/sliceoftri/episode-016-laurel-and-rebeccah-wassner"> <img class= "e16" src="http://cdn.triathlete.com/wp-content/uploads/2010/08/IMG_1081.jpg"></a>
+        <a href="https://soundcloud.com/sliceoftri/episode-017-spenser-popeson"> <img class= "e17" src="http://bloximages.chicago2.vip.townnews.com/pressofatlanticcity.com/content/tncms/assets/v3/editorial/0/21/0213cdd8-60cf-11e0-830f-001cc4c03286/4d9d3ca6c6f8c.image.jpg"></a>
+        <a href="https://soundcloud.com/sliceoftri/episode-014-darbi-roberts"> <img class= "e14" src="https://pbs.twimg.com/profile_images/778348184737374208/tpRhSuk5.jpg"></a>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
         
-        <div style="display:none" id= "home"> A triathlon is a multiple-stage competition involving the completion of three continuous and sequential endurance disciplines. While many variations of the sport exist, triathlon, in its most popular form, involves swimming, cycling, and running in immediate succession over various distances. Slice of Tri is about a triathlon podcast by three triathletes in Brooklyn, New York</div>
-        <script type="text/javascript" src="script.js"></script>
-        <div id= "pp">
-        <img class= "e16" style="display:none" src="http://cdn.triathlete.com/wp-content/uploads/2010/08/IMG_1081.jpg">
-        <img class= "e17" style="display:none" src="http://bloximages.chicago2.vip.townnews.com/pressofatlanticcity.com/content/tncms/assets/v3/editorial/0/21/0213cdd8-60cf-11e0-830f-001cc4c03286/4d9d3ca6c6f8c.image.jpg">
-        <img class= "e14" style="display:none" src="https://pbs.twimg.com/profile_images/778348184737374208/tpRhSuk5.jpg">
-        </div>
     </body>
 </html>
