@@ -8,6 +8,9 @@
 #mail{
     width:35px;
 }
+#twitter{
+    width:35px;
+}
 header{
     background-image:url(http://www.history.com/s3static/video-thumbnails/AETN-History_VMS/21/205/tdih-may24-HD_still_624x352.jpg);
     background-repeat: no-repeat;
@@ -20,6 +23,22 @@ header{
 #searchbtn{
     border-radius:10px;
 }
+#myCarousel{
+    width:1200px;
+    margin:auto;
+    height:500px;
+    overflow:hidden;
+}
+.item{
+    width:1200px;
+    height:500px;
+}
+.maurya {
+    width:260px;
+}
+body{
+    background-color:white;
+}
 .tri{
     width: 300px;
     border:solid;
@@ -29,14 +48,24 @@ h1 {
 }
 
 .e16 {
-    width:250px;
+    width:290px;
 }
 .e17 {
-    width:250px;
+    width:290px;
 }
 .e14 {
-    width:250px;
+    width:290px;
 }
+.e3 {
+    width:300px;
+}
+.e7 {
+    width:280px;
+}
+.e4 {
+    width:280px;
+}
+
 header{
     padding-top: 51px;
 }
@@ -44,4 +73,19 @@ header{
     header {
         padding-top: 400px;
     }
+}
+.navbar-default .navbar-brand{
+      color: orange;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-color:orange;
+ 
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color:orange;
+    color:white;
+}
+.nav>li>a:focus, .nav>li>a{
+
+    color:orange;
 }
