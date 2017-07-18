@@ -3,12 +3,15 @@
 
 <head>
     <title> Slice Of Tri</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-    
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="https://i1.sndcdn.com/avatars-000222621849-x9goya-t500x500.jpg">
 </head>
@@ -30,7 +33,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-left">
-                    
+
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
@@ -43,40 +46,39 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    
+
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
-       
+
         </div>
-       
+
     </nav>
-  
+
     <div class="row">
         <div class="col-md-12"></div>
     </div>
-    
-    <section id="intro" class="intro-section jumbotron bg ">
+
+    <section id="intro" class="intro-section jumbotron ">
+
         <div class="container ">
-            <div id="welcome">
+            <div class="bg"></div>
+
+            <div class="welcome">
                 <h1 class="text">Welcome to Slice Of Tri Podcasts</h1>
-            </div>  
-            
-            <div id="sub">
-                <p class="text"><strong>Slice Of Tri is a podcast by three triathletes from Brooklyn.</strong></p>
-            </div>
-            
-            <div>
-    
+                <p><strong>Slice Of Tri is a podcast by three triathletes from Brooklyn.</strong></p>
                 <a class="btn btn-default page-scroll" href="#home">Click Me to Scroll Down!</a>
             </div>
-                 
+
+
         </div>
+
     </section>
 
-    <section id="home"  class="home-section" >
+    <section id="home" class="home-section">
+
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -87,17 +89,17 @@
             <div class="col-md-12">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="http://www.triathlon.org/uploads/webgalleries/78730/msj_6307.jpg" alt="Athletes">
+                        <img class="img-responsive" src="http://www.triathlon.org/uploads/webgalleries/78730/msj_6307.jpg" alt="Athletes">
                     </div>
 
                     <div class="item">
-                        <img src="http://ap.ironman.com/~/media/cb5c85dda77545cf9a6c9188c5ac3845/gct%202017%20pro%20bike.jpg?w=1600&h=980&c=1" alt="biker">
+                        <img class="img-responsive" src="http://ap.ironman.com/~/media/cb5c85dda77545cf9a6c9188c5ac3845/gct%202017%20pro%20bike.jpg?w=1600&h=980&c=1" alt="biker">
                     </div>
                     <div class="item">
-                        <img src="http://blogs.deusto.es/euskalgaiak/wp-content/uploads/2015/09/ironman.jpg">
+                        <img class="img-responsive" src="http://blogs.deusto.es/euskalgaiak/wp-content/uploads/2015/09/ironman.jpg">
                     </div>
                     <div class="item">
-                        <img src="http://cdn.triathlete.com/wp-content/uploads/2013/07/EnduraPix_6058_120715AE07032F86.jpg" alt="Swimming">
+                        <img class="img-responsive" src="http://cdn.triathlete.com/wp-content/uploads/2013/07/EnduraPix_6058_120715AE07032F86.jpg" alt="Swimming">
                     </div>
                 </div>
             </div>
@@ -109,63 +111,94 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
                 <span class="sr-only">Next</span>
             </a>
-            
-            <div>
-                <img src="https://i1.sndcdn.com/avatars-000222621849-x9goya-t500x500.jpg">
-                <p>Description....................................................................................................
-                ..............................................................................................................</p>
-            </div>
+
         </div>
-        
-    </section>  
+        <div id="description" class="home">
+            <img id="logo" class="img-circle" src="https://i1.sndcdn.com/avatars-000222621849-x9goya-t500x500.jpg">
+            <h3><strong> Slice of Tri is a podcast by three triathletes from Brooklyn.
+            </strong></h3>
+        </div>
+
+    </section>
 
     <section id="podcasts" class="container podcasts-section container">
         <h1>Some podcasts you might want to listen!</h1>
         <a class="thumbnail" href="https://soundcloud.com/sliceoftri/episode003-megha-doshi-strava"> <img class="e3" src="https://cdn-images-1.medium.com/max/1000/1*V4zFuzReSIW0ym3oGYYJ8w.jpeg"></a>
-            <div class="caption">
-                <h4> Episode 003 - Megha Doshi, Strava </h4>
-                <p> Interview with Megha Doshi, the Local Marketing Director at Strava. </p>
-            </div>
+        <div class="caption">
+            <h4> Episode 003 - Megha Doshi, Strava </h4>
+            <p> Interview with Megha Doshi, the Local Marketing Director at Strava. </p>
+        </div>
         <a class="thumbnail" href="https://soundcloud.com/sliceoftri/episode-007-rudy-garcia-tolson"><img class="e7" src="http://www4.pictures.zimbio.com/gi/2012+London+Paralympics+Day+9+Athletics+rwbpeCiJf7El.jpg"></a>
-            <div class="caption">
-                <h4> Episode 007 - Rudy Garcia Tolson</h4>
-                <p> interview with Rudy Garcia Tolson, who is preparing for his fourth Paralympic games in Rio. Rudy is a two time gold medal winner at the Paralympics, a world record holder in the 200 individual medley, and the first ever bilateral above-knee
+        <div class="caption">
+            <h4> Episode 007 - Rudy Garcia Tolson</h4>
+            <p> interview with Rudy Garcia Tolson, who is preparing for his fourth Paralympic games in Rio. Rudy is a two time gold medal winner at the Paralympics, a world record holder in the 200 individual medley, and the first ever bilateral above-knee
                 amputee to complete an Ironman. For more information on Rudy, please visit rudygt.com.</p>
-            </div>
+        </div>
         <a class="thumbnail" href="https://soundcloud.com/sliceoftri/episode-004-leanda-cave"> <img class="e4" src="http://cdn.triathlete.com/wp-content/uploads/2012/11/Kona-8403.jpg"></a>
-            <div class="caption">
-                <h4>Episode 004 - Leanda Cave </h4>
-                <p> Leanda Cave joins us as our very special guest! Check out her website at leandacave.com, and her Team's website at triteamlc.com</p>
-            </div>
+        <div class="caption">
+            <h4>Episode 004 - Leanda Cave </h4>
+            <p> Leanda Cave joins us as our very special guest! Check out her website at leandacave.com, and her Team's website at triteamlc.com</p>
+        </div>
         <a class="thumbnail" href="https://soundcloud.com/sliceoftri/episode-016-laurel-and-rebeccah-wassner"> <img class="e16" src="http://cdn.triathlete.com/wp-content/uploads/2010/08/IMG_1081.jpg"></a>
-            <div class="caption">
-                <h4> Episode 016 - Laurel and Rebeccah Wassner </h4>
-                <p> Interview with Laurel and Rebeccah Wassner. You can follow Laurel and Rebeccah at their websites: www.wassnertwins.com and www.athletefood.com. You can follow them on Instagram at @athletestyle and @athletefood. </p>
-            </div>
+        <div class="caption">
+            <h4> Episode 016 - Laurel and Rebeccah Wassner </h4>
+            <p> Interview with Laurel and Rebeccah Wassner. You can follow Laurel and Rebeccah at their websites: www.wassnertwins.com and www.athletefood.com. You can follow them on Instagram at @athletestyle and @athletefood. </p>
+        </div>
         <a class="thumbnail" href="https://soundcloud.com/sliceoftri/episode-017-spenser-popeson"> <img class="e17" src="http://bloximages.chicago2.vip.townnews.com/pressofatlanticcity.com/content/tncms/assets/v3/editorial/0/21/0213cdd8-60cf-11e0-830f-001cc4c03286/4d9d3ca6c6f8c.image.jpg"></a>
-            <div class="caption">
-                <h4> Episode 017 - Spenser Popeson </h4>
-                <p> Interview with Brooklyn based pro triathlete Spenser Popeson. You can find Spenser on Twitter at @spenserpopeson, on Facebook at facebook.com/SpenserPopesonTri, and on Instagram at @picsdespenser.</p>
-            </div>
+        <div class="caption">
+            <h4> Episode 017 - Spenser Popeson </h4>
+            <p> Interview with Brooklyn based pro triathlete Spenser Popeson. You can find Spenser on Twitter at @spenserpopeson, on Facebook at facebook.com/SpenserPopesonTri, and on Instagram at @picsdespenser.</p>
+        </div>
         <a class="thumbnail" href="https://soundcloud.com/sliceoftri/episode-014-darbi-roberts"> <img class="e14" src="https://pbs.twimg.com/profile_images/778348184737374208/tpRhSuk5.jpg"></a>
-            <div class="caption">
-                <h4> Episode 014 - Darbi Roberts </h4>
-                <p> Interview with Darbi Roberts, a local pro triathlete and the winner of Ironman Wales. Read Darbi's race report on Ironman Wales at triby3.com/darbi-roberts-ironman-wales-champion/ and follow her on twitter @DarbiRoberts</p>
-            </div>
+        <div class="caption">
+            <h4> Episode 014 - Darbi Roberts </h4>
+            <p> Interview with Darbi Roberts, a local pro triathlete and the winner of Ironman Wales. Read Darbi's race report on Ironman Wales at triby3.com/darbi-roberts-ironman-wales-champion/ and follow her on twitter @DarbiRoberts</p>
+        </div>
         <a id="l" href="https://soundcloud.com/sliceoftri">Click here for all the podcasts!</a>
     </section>
 
-      <section  id="about" class="container about-section">
-          <h1>Hosts of Slice Of Tri</h1>
-        <img class="maurya" src="https://media.bizj.us/view/img/4675861/maurya-couvares-ceo-scripted*750xx1334-1779-0-0.jpg">
+    <section id="about" class="container about-section">
+        <h1>Hosts of Slice Of Tri</h1>
+        <img id="maurya" class="img-circle"  src="https://media.bizj.us/view/img/4675861/maurya-couvares-ceo-scripted*750xx1334-1779-0-0.jpg">
         <div class="caption">
             <h4> Maurya Couvares </h4>
-            <p> Co-Founder + Boss Lady at ScriptEd , BrooklynTriClub Triathlete, and Slice of Tri podcast co-host, TriTeamLC Ambassador </p>
+            <p> Maurya grew up as a competitive swimmer, and this summer is her seventh season as a triathlete. She is completely in love with the sport, and enjoys being part of a community of people who share her passion. </p>
         </div>
-      </section>
-    
-    <section  id="contact" class="container contact-section">
-        <h1>Email Slice of Tri!</h1>
+        <img id="ben" class="img-circle" src="http://brooklyntri.org/wp-content/uploads/2015/04/ben-bio.jpg">
+        <div class="caption">
+            <h4>Ben Kessel</h4>
+            <p>The variety of triathlons is what keeps Ben hooked to the sport: the technicality of swimming, the endurance/power of cycling, and the mental game and rhythm of running. His favorite race was his first race: the Staten Island sprint. He is
+                a fitness coach, and a coach of the Brooklyn Triathlon Club.</p>
+        </div>
+        <img id="mat" class="img-circle" src="http://brooklyntri.org/wp-content/uploads/2015/04/Mat-ward-board-300x300.jpg">
+        <div class="caption">
+            <h4>Mat Ward</h4>
+            <p>Mat moved to Brooklyn in 2013 from London. He's been competing in triathlons since 2011, and was excited to find a community of triathletes in Brooklyn. His club-mates are his New York family and his fondest memory is hearing his friends cheers
+                when running the NYC marathon.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container contact-section">
+            <h1>Email Slice of Tri!</h1>
+            <div class="container">
+                <button type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#myModal">Click Here!</button>
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">We want to know your opinion!</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>You can email Slice of Tri to give your opinion about the podcasts you enjoyed the most.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <form action="https://formspree.io/maurya@scripted.org" method="POST">
             <div class="form-group">
                 <label> Your Name </label>
@@ -185,9 +218,17 @@
                 <input class="form-control" type="checkbox" name="podcast" value="Darbi Roberts"> Darbi Roberts<br>
                 <button id="con" type="submit" class="btn btn-default">Submit</button>
         </form>
+
     </section>
-    <script src="js/jquery-1.10.2.min.js"></script>
     
+    <div class="footer-holder">
+        
+    </div>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+
 </body>
 
 </html>

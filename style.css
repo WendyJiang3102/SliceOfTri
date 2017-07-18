@@ -1,6 +1,5 @@
-/*#logo{
-    width:100px;
-    border-radius: 20px;
+#logo{
+    width:200px;
 }
 #facebook{
     width:50px;
@@ -11,18 +10,8 @@
 #twitter{
     width:35px;
 }
-header{
-    background-image:url(http://www.history.com/s3static/video-thumbnails/AETN-History_VMS/21/205/tdih-may24-HD_still_624x352.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}*/
 
-#value{
-    border-radius:10px;
-}
-#searchbtn{
-    border-radius:10px;
-}
+
 #myCarousel{
     width:1200px;
     margin:auto;
@@ -33,7 +22,13 @@ header{
     width:1200px;
     height:500px;
 }
-.maurya {
+#maurya {
+    width:260px;
+}
+#ben {
+    width:260px;
+}
+#mat {
     width:260px;
 }
 body{
@@ -45,16 +40,16 @@ body{
 }
 
 .e16 {
-    width:290px;
+    width:280px;
 }
 .e17 {
-    width:290px;
+    width:280px;
 }
 .e14 {
-    width:290px;
+    width:280px;
 }
 .e3 {
-    width:300px;
+    width:280px;
 }
 .e7 {
     width:280px;
@@ -113,48 +108,61 @@ body {
     
 }
 .home-section {
-    height: 100%;
-    padding-top: 150px;
-    background: #fff;
+    padding-top: 100px;
+
 }
 .about-section {
-    height: 100%;
-    padding-top: 150px;
+    padding-top: 200px;
     text-align: center;
     background: #eee;
 }
-.podcast-section {
-    height: 100%;
+.podcasts-section {
     padding-top: 150px;
     background: #eee;
 }
 
 .contact-section {
-    height: 100%;
     padding-top: 150px;
     background: #eee;
     
+}
+#description{
+    text-align:center;
 }
 body, html {
     height: 100%;
     margin: 0;
 }
-
-.bg {
+#intro{
+    position:relative;
+   
+}
+.bg{
     /* The image used */
     background-image: url(http://www.history.com/s3static/video-thumbnails/AETN-History_VMS/21/205/tdih-may24-HD_still_624x352.jpg);
 
     /* Full height */
     height: 100%; 
-
-    /* Center and scale the image nicely */
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity:0.6;
+    opacity:0.7;
+    
+    
 }
-.text{
-    color:black;
 
+.welcome{
+    position:relative;
+    z-index:1;
 }
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    background-color:grey;
+}
+
+
+
 
