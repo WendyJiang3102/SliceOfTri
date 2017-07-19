@@ -1,65 +1,87 @@
-#logo{
-    width:200px;
-}
-#facebook{
-    width:50px;
-}
-#mail{
-    width:35px;
-}
-#twitter{
-    width:35px;
+#logo {
+    width: 200px;
+    padding-top: 10px;
 }
 
+#slice {
+    padding-top: 50px;
+    color: black;
+}
 
-#myCarousel{
-    width:1200px;
-    margin:auto;
-    height:500px;
-    overflow:hidden;
+#facebook {
+    width: 50px;
 }
-.item{
-    width:1200px;
-    height:500px;
+
+#mail {
+    width: 35px;
 }
+
+#twitter {
+    width: 35px;
+}
+
+#myCarousel {
+    width: 1200px;
+    margin: auto;
+    height: 500px;
+    overflow: hidden;
+}
+
+.item {
+    width: 1200px;
+    height: 500px;
+}
+
 #maurya {
-    width:260px;
+    width: 240px;
 }
+
 #ben {
-    width:260px;
+    width: 260px;
 }
+
 #mat {
-    width:260px;
+    width: 260px;
 }
-body{
-    background-color:white;
+
+body {
+    font-family: 'Courgette', cursive;
 }
-.tri{
+
+body {
+    background-color: white;
+}
+
+.tri {
     width: 300px;
-    border:solid;
+    border: solid;
 }
 
 .e16 {
-    width:280px;
+    width: 400px;
 }
+
 .e17 {
-    width:280px;
+    width: 430px;
 }
+
 .e14 {
-    width:280px;
+    width: 280px;
 }
+
 .e3 {
-    width:280px;
+    width: 900px;
 }
+
 .e7 {
-    width:280px;
+    width: 280px;
 }
+
 .e4 {
-    width:280px;
+    width: 280px;
 }
 
 #con {
-    background-color: orange;
     border: none;
     color: black;
     padding: 4px 32px;
@@ -69,100 +91,144 @@ body{
     font-size: 16px;
 }
 
-header{
+header {
     padding-top: 51px;
 }
-@media only screen and (max-width: 768px){
+
+@media only screen and (max-width: 768px) {
     header {
         padding-top: 400px;
     }
 }
 
 form {
-    width:1000px;
+    width: 1000px;
 }
-.navbar-default .navbar-brand{
-      color: White;
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
-    background-color:grey;
-    color:white;
-}
-.nav>li>a:focus, .nav>li>a:hover{
-    background-color:grey;
-    color:white;
-}
-.nav>li>a:focus, .nav>li>a{
 
-    color:white;
-}
 body {
     width: 100%;
     height: 100%;
 }
+
 .intro-section {
     height: 100%;
-    padding-top:150px;
+    padding-top: 150px;
     text-align: center;
     background: #fff;
-    
 }
+
 .home-section {
     padding-top: 100px;
+    padding-bottom: 50px;
+    background: #fff;
+}
 
-}
 .about-section {
-    padding-top: 200px;
+    padding-top: 50px;
     text-align: center;
-    background: #eee;
+    background: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
 .podcasts-section {
-    padding-top: 150px;
+    padding-top: 50px;
     background: #eee;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .contact-section {
-    padding-top: 150px;
+    padding-top: 50px;
     background: #eee;
-    
+    padding-left: 50px;
+    padding-right: 50px;
 }
-#description{
+
+#twitter {
+    display: block;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+     line-height: 45px;
+    color: black;
+     text-align:center;
+}
+
+#facebook {
+    display: block;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    line-height:45px;
+    color: black;
     text-align:center;
 }
-body, html {
+.fa-envelope{
+    color:black;
+    text-align:center;
+}
+
+#email{
+    display: block;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    line-height: 45px;
+    color: black;
+    text-align: center;
+}
+#description {
+    text-align: center;
+}
+body,
+html {
     height: 100%;
     margin: 0;
 }
-#intro{
-    position:relative;
-   
+#intro {
+    position: relative;
 }
-.bg{
+.bg {
     /* The image used */
+    
     background-image: url(http://www.history.com/s3static/video-thumbnails/AETN-History_VMS/21/205/tdih-may24-HD_still_624x352.jpg);
-
     /* Full height */
-    height: 100%; 
-    width:100%;
-    position:absolute;
-    top:0;
-    left:0;
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity:0.7;
-    
-    
+    opacity: 0.7;
+}
+.welcome {
+    position: relative;
+    z-index: 1;
+}
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: orange;
+    color: white;
+}
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand {
+    color: orange;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
 }
 
-.welcome{
-    position:relative;
-    z-index:1;
+/*----------------footer---------------*/
+#last {
+    width: 100%;
+    padding: 60px 0px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.walldevil.com/wallpapers/a77/theme-background-tumblr-photo-backgrounds-black-plugins-sentences.jpg);
 }
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
-    background-color:grey;
-}
-
-
-
-

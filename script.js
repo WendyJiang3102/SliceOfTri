@@ -16,6 +16,7 @@ $(document).ready(function() {
       }
     }
   });
+ });
   $('ul li').click(function() {
     $("#myCarousel").carousel();
 
@@ -26,5 +27,5 @@ $(document).ready(function() {
     $(".left").click(function() {
       $("#myCarousel").carousel("prev");
     });
-  });
+
 });
