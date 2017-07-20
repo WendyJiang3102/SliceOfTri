@@ -1,24 +1,71 @@
+
+body {
+    font-family: 'Courgette', cursive;
+    background-color: white;
+     width: 100%;
+    height: 100%;
+}
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding-top: 400px;
+    }
+}
+
+/*-----------intro----------*/
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+#intro {
+    position: relative;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(http://www.history.com/s3static/video-thumbnails/AETN-History_VMS/21/205/tdih-may24-HD_still_624x352.jpg);
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.welcome {
+    position: relative;
+    z-index: 1;
+}
+
+/*--------------home-----------*/
+
+.home-section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: #fff;
+}
 #logo {
     width: 200px;
     padding-top: 10px;
 }
-
 #slice {
     padding-top: 50px;
     color: black;
 }
 
-#facebook {
-    width: 50px;
-}
-
-#mail {
-    width: 35px;
-}
-
-#twitter {
-    width: 35px;
-}
+/*-----------carousel----------*/
 
 #myCarousel {
     width: 1200px;
@@ -26,12 +73,28 @@
     height: 500px;
     overflow: hidden;
 }
-
 .item {
     width: 1200px;
     height: 500px;
 }
 
+/*--------------About-----------*/
+
+.about-section {
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#title {
+    padding-bottom: 70px;
+}
+
+.caption {
+    padding-top: 10px;
+    line-height: 45px;
+}
 #maurya {
     width: 240px;
 }
@@ -44,19 +107,19 @@
     width: 260px;
 }
 
-body {
-    font-family: 'Courgette', cursive;
-}
+/*--------------podcast-----------*/
 
-body {
-    background-color: white;
+.podcasts-section {
+    padding-top: 50px;
+    background: #eee;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-
-.tri {
-    width: 300px;
-    border: solid;
+#pod2{
+    text-align:center;
+    padding-bottom:40px;
+  
 }
-
 .e16 {
     width: 400px;
 }
@@ -81,62 +144,7 @@ body {
     width: 280px;
 }
 
-#con {
-    border: none;
-    color: black;
-    padding: 4px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-header {
-    padding-top: 51px;
-}
-
-@media only screen and (max-width: 768px) {
-    header {
-        padding-top: 400px;
-    }
-}
-
-form {
-    width: 1000px;
-}
-
-body {
-    width: 100%;
-    height: 100%;
-}
-
-.intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
-
-.home-section {
-    padding-top: 100px;
-    padding-bottom: 50px;
-    background: #fff;
-}
-
-.about-section {
-    padding-top: 50px;
-    text-align: center;
-    background: #fff;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.podcasts-section {
-    padding-top: 50px;
-    background: #eee;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+/*----------------contact---------------*/
 
 .contact-section {
     padding-top: 50px;
@@ -145,33 +153,48 @@ body {
     padding-right: 50px;
 }
 
+#description {
+    text-align: center;
+}
+#con {
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+form {
+    width: 1000px;
+}
+
+/*------------navbar----------------*/
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand {
+    color: orange;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color:orange;
+}
+
+
+/*----------------footer---------------*/
+
+#last {
+    width: 100%;
+    padding: 60px 0px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.walldevil.com/wallpapers/a77/theme-background-tumblr-photo-backgrounds-black-plugins-sentences.jpg);
+}
 #twitter {
-    display: block;
-    background-color: white;
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-     line-height: 45px;
-    color: black;
-     text-align:center;
-}
-
-#facebook {
-    display: block;
-    background-color: white;
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    line-height:45px;
-    color: black;
-    text-align:center;
-}
-.fa-envelope{
-    color:black;
-    text-align:center;
-}
-
-#email{
     display: block;
     background-color: white;
     height: 40px;
@@ -181,54 +204,30 @@ body {
     color: black;
     text-align: center;
 }
-#description {
+
+#facebook {
+    display: block;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    line-height: 45px;
+    color: black;
     text-align: center;
 }
-body,
-html {
-    height: 100%;
-    margin: 0;
-}
-#intro {
-    position: relative;
-}
-.bg {
-    /* The image used */
-    
-    background-image: url(http://www.history.com/s3static/video-thumbnails/AETN-History_VMS/21/205/tdih-may24-HD_still_624x352.jpg);
-    /* Full height */
-    
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
-}
-.welcome {
-    position: relative;
-    z-index: 1;
-}
-.navbar-inverse .navbar-nav>li>a:focus,
-.navbar-inverse .navbar-nav>li>a:hover {
-    background-color: orange;
-    color: white;
-}
-.navbar-inverse .navbar-brand:focus,
-.navbar-inverse .navbar-brand {
-    color: orange;
-}
-.navbar-inverse .navbar-nav>li>a {
-    color: white;
+
+.fa-envelope {
+    color: black;
+    text-align: center;
 }
 
-/*----------------footer---------------*/
-#last {
-    width: 100%;
-    padding: 60px 0px;
-    background-repeat: no-repeat;
-    background-image: url(https://www.walldevil.com/wallpapers/a77/theme-background-tumblr-photo-backgrounds-black-plugins-sentences.jpg);
+#email {
+    display: block;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    line-height: 45px;
+    color: black;
+    text-align: center;
 }
