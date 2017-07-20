@@ -10,6 +10,9 @@ html {
     height: 100%;
     margin: 0;
 }
+#mo {
+    color:black;
+}
 
 @media only screen and (max-width: 768px) {
     header {
@@ -133,7 +136,7 @@ html {
 }
 
 .e3 {
-    width: 900px;
+    width: 870px;
 }
 
 .e7 {
@@ -183,6 +186,28 @@ form {
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     background-color:orange;
+}
+
+
+#nav {
+  height: 70px;
+  background: transparent; 
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+
+}
+#nav.shrink {
+  height: 40px;
+  transition: all ease .5s;
+  background: black; 
+}
+
+#nav.shrink #logo {
+  padding: 10px;
+  transition: all ease .5s;
 }
 
 
