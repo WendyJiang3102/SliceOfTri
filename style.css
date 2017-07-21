@@ -188,29 +188,6 @@ form {
     background-color:orange;
 }
 
-
-#nav {
-  height: 70px;
-  background: transparent; 
-  display: block;
-  position: fixed;
-  width: 100%;
-  z-index: 99999;
-  transition: all ease .5s;
-
-}
-#nav.shrink {
-  height: 40px;
-  transition: all ease .5s;
-  background: black; 
-}
-
-#nav.shrink #logo {
-  padding: 10px;
-  transition: all ease .5s;
-}
-
-
 /*----------------footer---------------*/
 
 #last {
